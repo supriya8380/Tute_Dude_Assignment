@@ -37,11 +37,3 @@ Add a submit button.
 Footer Section:
 Include a footer with a contact information paragraph: "Contact us at: info@laundrymart.com."
 
-
-
-Submission Guidelines:
-Name the file “index.html” and deploy The Code on Netlify. Provide the deployed link in the form.
-If you don’t know how to deploy on netlify, watch this video : https://youtu.be/Ii2Y4i4_i-o
-
-By completing these tasks, the goal is to transform the existing webpage into an informative and user-friendly platform that effectively represents Laundry Wallah / Laundry Mart's services.
-
