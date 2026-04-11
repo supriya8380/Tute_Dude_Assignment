@@ -1,0 +1,150 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+.list ul {
+    display: flex;
+    gap:2rem;
+    list-style:none;
+    justify-content:center;
+    cursor: pointer;
+    
+}
+
+.nav-bar{
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:grey;
+    justify-content:space-between;
+    
+    
+}
+
+
+
+body{
+    font-family:fantasy;
+    height:100vh;
+}
+
+.username{
+    color:rgb(37, 178, 225);
+    width:85px;
+    height:40px;
+    margin-right:5%;
+    background-color:rgb(228, 240, 244);
+    border-radius:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:background-color 0.3s ease;
+
+    
+}
+
+.username:hover{
+    background-color:rgb(190, 230, 243);
+    color:rgb(8, 172, 227);
+}
+
+#logo{
+    margin:5%;
+    font-size: 1.8rem;
+    color:black;
+}
+
+.hero-section{
+    display:flex;
+    align-items:center;
+    min-height:100vh;
+    flex-basis:50%;
+}
+
+
+.hero-img {
+    flex-basis:40%;
+    width:100%;
+    max-width:400px;
+    height:40vw;
+
+
+    background-image: url("https://png.pngtree.com/png-clipart/20230124/ourmid/pngtree-illustration-of-a-laundry-washing-machine-png-image_6568228.png");
+
+    background-size: cover;
+    background-position: center;
+   
+    padding-left:10rem;
+    margin-bottom:5rem;
+    
+}
+
+h1{
+   line-height:3rem;
+    
+}
+
+.hero-content{
+    flex-basis: 53%;
+    padding-left:15rem;
+    margin-bottom:5rem;
+    padding-right:5rem;
+}
+
+p{
+    text-align:justify;
+    margin:10px 0px;
+    color:grey;
+}
+
+.seconadry-heading{
+    color:rgb(37, 178, 225);
+}
+
+.hero-btn{
+    text-decoration: none;
+    display:inline-block;
+    width:11rem;
+    height:2.5rem;
+    background-color:rgb(37, 178, 225);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color:white;
+    border-radius:10px;
+    transition:background-color 0.3s ease;
+    
+
+    
+}
+
+.hero-btn:hover{
+    background-color:rgb(9, 141, 185);
+}
+
+.list ul li {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 85px;
+  height: 40px;
+  transition: all 0.3s ease;
+}
+
+.list ul li:hover {
+  background-color: lightgrey;
+  border-radius: 10px;
+  color: black;
+}
+
+
+
+
+
+
+
+
